@@ -1,14 +1,14 @@
 {
-  "name": "uploadfs",
-  "version": "1.3.4",
-  "description": "Store files in a web-accessible location via a simplified API. Can automatically scale and rotate images. Includes both S3-based and local filesystem-based backends with the most convenient features of each.",
+  "name": "uploadfs-azure",
+  "version": "1.0.0",
+  "description": "Store files in a web-accessible location via a simplified API. Can automatically scale and rotate images. Includes azure-based, S3-based and local filesystem-based backends with the most convenient features of each.",
   "main": "uploadfs.js",
   "scripts": {
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:punkave/uploadfs.git"
+    "url": "git@github.com:falkodev/uploadfs-azure.git"
   },
   "keywords": [
     "upload",
@@ -17,7 +17,7 @@
     "storage",
     "azure"
   ],
-  "author": "Thomas Boutell",
+  "author": "Thomas Boutell/Anthony Tarlao",
   "license": "MIT",
   "dependencies": {
     "async": "^1.0.0",
